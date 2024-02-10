@@ -23,7 +23,7 @@ const Hero = () => {
                         LinkedIn
                     </a>
                     {' '}and{' '}
-                    <a href="https://rohannishant.netlify.app/blog">
+                    <a href="https://twitter.com/rondon7_10">
                         Twitter
                     </a>
                 </p>
