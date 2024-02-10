@@ -1,0 +1,11 @@
+[build]
+base = "project/"
+publish = "build/"
+command = "npm run build"
+
+[context.production.environment]
+REACT_APP_API_URL = "https://rohannishant.netlify.app/"
+
+[[redirects]]
+from = "/"
+to = "/blog"
