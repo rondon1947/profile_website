@@ -1,18 +1,21 @@
 import React from 'react';
+import NavBar from "./components/NavBar";
+import { useTranslation } from 'react-i18next';
 
-const Hero = () => {
+const HomePage = () => {
+    const { t } = useTranslation();
     return (
         <div>
+            <NavBar />
             <div>
                 <h1>
-                    Hi Visitor, I am Rohan Nishant. <br />
+                    {t('HomePage.heading')}
                 </h1>
                 <h2>
-                    I build apps and websites with a focus on responsive design and accessibility.
+                    {t('HomePage.subheading')}
                 </h2>
                 <p>
-                    I'm a Frontend Developer having an industry experience of about
-                    2 years in full-time and about 6 months of various internships.
+                    {t('HomePage.about_me')}
                     <br />
                     Find me on:{' '}
                     <a href="https://github.com/rondon1947">
@@ -37,4 +40,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default HomePage;
