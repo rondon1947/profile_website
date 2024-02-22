@@ -1,0 +1,24 @@
+{
+  "Common": {
+    "and": "y",
+    "English": "Inglés",
+    "German": "Alemán",
+    "French": "Francés",
+    "Hindi": "hindi",
+    "Spanish": "Español"
+  },
+  "NavBar": {
+    "abt_me": "Acerca de mí",
+    "blogs": "Blogs diarios",
+    "projects": "Mis proyectos"
+  },
+  "HomePage": {
+    "heading": "Hola visitante, soy Rohan Nishant.",
+    "subheading": "Construyo aplicaciones y sitios web con un enfoque en el diseño responsivo y la accesibilidad.",
+    "about_me": "Soy un desarrollador frontend y tengo una experiencia en la industria de aproximadamente 2 años a tiempo completo y aproximadamente 6 meses de diversas pasantías.",
+    "find_me": "Puedes encontrarme en:"
+  },
+  "Footer": {
+    "change_lang": "Cambie el idioma del sitio web a:"
+  }
+}

@@ -1,9 +1,13 @@
 // i18n.js
 import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
+import {initReactI18next} from 'react-i18next';
 
 // Import translations
 import translationEN from './locales/en/translation.json';
+import translationDE from './locales/de/translation.json';
+import translationFR from './locales/fr/translation.json';
+import translationHI from './locales/hi/translation.json';
+import translationES from './locales/es/translation.json';
 
 // Initialize i18next
 i18n
@@ -13,11 +17,20 @@ i18n
             en: {
                 translation: translationEN
             },
-            // fr: {
-            //     translation: translationFR
-            // }
+            de: {
+                translation: translationDE
+            },
+            fr: {
+                translation: translationFR
+            },
+            hi: {
+                translation: translationHI
+            },
+            es: {
+                translation: translationES
+            }
         },
-        lng: 'en', // default language
+        lng: localStorage.getItem('lang') || 'en', // default language
         fallbackLng: 'en', // fallback language
         interpolation: {
             escapeValue: false // react already safes from xss

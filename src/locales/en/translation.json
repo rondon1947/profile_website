@@ -1,8 +1,24 @@
 {
-  "heading": "Hi Visitor, I am Rohan Nishant.",
+  "Common": {
+    "and": "and",
+    "English": "English",
+    "German": "German",
+    "French": "French",
+    "Hindi": "Hindi",
+    "Spanish": "Spanish"
+  },
+  "NavBar": {
+    "abt_me": "About Me",
+    "blogs": "Daily Blogs",
+    "projects": "My Projects"
+  },
   "HomePage": {
     "heading": "Hi Visitor, I am Rohan Nishant.",
     "subheading": "I build apps and websites with a focus on responsive design and accessibility.",
-    "about_me": "I'm a Frontend Developer having an industry experience of about 2 years in full-time and about 6 months of various internships."
+    "about_me": "I'm a Frontend Developer having an industry experience of about 2 years in full-time and about 6 months of various internships.",
+    "find_me": "You can find me on:"
+  },
+  "Footer": {
+    "change_lang": "Change Website Language to:"
   }
 }

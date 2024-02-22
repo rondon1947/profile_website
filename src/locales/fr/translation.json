@@ -1,0 +1,24 @@
+{
+  "Common": {
+    "and": "et",
+    "English": "Anglais",
+    "German": "Allemand",
+    "French": "Français",
+    "Hindi": "hindi",
+    "Spanish": "Espagnol"
+  },
+  "NavBar": {
+    "abt_me": "Sur moi",
+    "blogs": "Blogues quotidiens",
+    "projects": "Mes projets"
+  },
+  "HomePage": {
+    "heading": "Bonjour visiteur, je suis Rohan Nishant.",
+    "subheading": "Je crée des applications et des sites Web en mettant l'accent sur le design réactif et l'accessibilité.",
+    "about_me": "Je suis un développeur Frontend ayant une expérience dans l'industrie d'environ 2 ans à temps plein et environ 6 mois de stages divers.",
+    "find_me": "Vous pouvez me retrouver sur :"
+  },
+  "Footer": {
+    "change_lang": "Changez la langue du site Web en :"
+  }
+}
