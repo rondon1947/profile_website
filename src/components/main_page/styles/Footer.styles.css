@@ -15,7 +15,7 @@
     left: 0;
     right: 0;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #lang_dropdown {
