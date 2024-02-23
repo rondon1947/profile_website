@@ -1,7 +1,7 @@
 // NavBar.js
 import React, {useState} from 'react';
 import HomeIcon from '@mui/icons-material/Home';
-import '../styles/NavBar.css';
+import '../styles/NavBar.styles.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import {INavBarProps} from "../constants/interfaces/Navbar.interfaces";

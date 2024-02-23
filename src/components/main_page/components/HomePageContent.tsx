@@ -1,4 +1,7 @@
 import React from 'react';
+
+import '../styles/HomePage.styles.css';
+
 import {githubURL, linkedInURL, twitterURL} from "../constants/HomePage.constants";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -9,7 +12,7 @@ const HomePageContent = () => {
     const {t} = useTranslation();
 
     return (
-        <div>
+        <div id="content">
             <h1>
                 {t('HomePage.heading')}
             </h1>

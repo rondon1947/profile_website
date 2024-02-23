@@ -1,8 +1,8 @@
 import React from 'react';
 import {useTranslation} from "react-i18next";
-import {changeEntireWebsiteLanguage} from "../../../utils/Footer.utils";
+import {changeEntireWebsiteLanguage} from "../../../../utils/Footer.utils";
 
-const Footer = () => {
+const LanguageSelector = () => {
     const {t, i18n} = useTranslation();
 
     const changeLanguage = (event: { target: { value: string; }; }) => {
@@ -11,8 +11,8 @@ const Footer = () => {
 
     return (
         <div>
-            <span>{t('Footer.change_lang')}{'       '}</span>
-            <select value={localStorage.getItem('lang') || 'en'} onChange={changeLanguage}>
+            <span className={'mr12'}>{t('Footer.change_lang')}{'       '}</span>
+            <select value={localStorage.getItem('lang') || 'en'} onChange={changeLanguage} id={'lang_dropdown'}>
                 <option value="en">{t('Common.English')}</option>
                 <option value="de">{t('Common.German')}</option>
                 <option value="fr">{t('Common.French')}</option>
@@ -22,4 +22,4 @@ const Footer = () => {
         </div>
     );
 };
-export default Footer;
+export default LanguageSelector;

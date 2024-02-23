@@ -1,0 +1,20 @@
+#homepage_container {
+    background-image: url('../../../assets/HomepageBG.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+#content {
+    position: absolute;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: center;
+}

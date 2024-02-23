@@ -19,6 +19,8 @@
     "find_me": "Vous pouvez me retrouver sur :"
   },
   "Footer": {
-    "change_lang": "Changez la langue du site Web en :"
+    "change_lang": "Changez la langue du site Web en :",
+    "made_with": "Fabriqué avec",
+    "bharat": "à Bhârat"
   }
 }
